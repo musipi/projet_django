@@ -1,0 +1,46 @@
+.nav_bar {
+  justify-content: right;
+  height: 100vh;
+  background: linear-gradient(to right top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("kin.jpg") top;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
+
+.list li a {
+  margin-top: 0;
+  text-decoration: none;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff; }
+
+li {
+  float: right;
+  font-size: 28px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  justify-content: space-between; }
+
+.para {
+  position: absolute;
+  z-index: 1;
+  left: 290px;
+  top: 180px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Roboto Thin"; }
+
+.sous {
+  position: absolute;
+  z-index: 2;
+  left: 340px;
+  top: 110px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Roboto Thin"; }
+
+.tp {
+  float: left;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto Thin"; }
